@@ -1,0 +1,85 @@
+.back{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.ing{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-size: 50px;
+}
+
+.box{
+    width:400px;
+    height:30px;
+    border-radius: 30px;
+    padding: 10px;
+
+
+}
+
+.textcontent{
+    padding: 20px;
+    width: 700px;
+    height:350px;
+    overflow-y:scroll;
+    background-color: rgba(40, 22, 22, 0.144);
+    border: #141E30 10px solid;
+    color: snow;
+    border-radius:25px;
+    scroll-behavior: smooth;
+
+}
+.sub{
+    width: 70px;
+    height:50px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+
+.user-message {
+    align-self: flex-start;
+    text-align: left;
+    margin-right: auto;
+    background-color: darkolivegreen;
+    padding: 15px;
+    margin:20px;
+    border-radius: 20px;
+    max-width: 500px;
+    display: inline-block;/* Adds space between user and AI messages */
+  }
+  
+  .ai-message {
+    align-self: flex-start;
+    text-align: left;
+    background-color: rgb(53, 54, 51);
+    margin:30px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 150px;
+    display: inline-block;
+    /* Adds space between AI and user messages */
+  }
+  .message-heading {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+pre {
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break long words */
+    margin: 0;
+  }
