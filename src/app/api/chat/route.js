@@ -5,7 +5,7 @@ const google = createGoogleGenerativeAI({
   apiKey: process.env.apiKey,
 });
 // Allow streaming responses up to 30 seconds
-export const maxDuration = 30;
+export const maxDuration = 250;
 
 export async function POST(req) {
   const { messages } = await req.json();
