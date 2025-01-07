@@ -25,23 +25,19 @@ cd chat-bot-app
 ```
 
 
-### 💻 How It Works
+### 💻 How It Works:
 
 #### User Interaction:
-
 - The user types a message in the input box and submits the form.
 - The app sends the message to the backend API.
 
 #### Backend API:
-
 - The API interacts with Google's Generative AI to get a response.
 - The response is streamed and sent back to the frontend in real-time.
 
 #### Frontend:
-
 - The frontend displays the conversation between the user and AI, handling user inputs and AI responses.
 - The chat interface is styled using CSS.
 
 ### 🤝 Contributing
-
 - Feel free to contribute! Open issues, create pull requests, or suggest features. Let's make this app even better! 💪
